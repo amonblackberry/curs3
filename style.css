@@ -1,0 +1,63 @@
+.andika-regular {
+  font-family: "Andika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.andika-bold {
+  font-family: "Andika", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.andika-regular-italic {
+  font-family: "Andika", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  /* Стандартный размер шрифта */
+}
+
+@media (max-width: 768px) {
+
+  /* Для экранов шириной 768 пикселей и меньше */
+  .andika-regular-italic {
+    font-size: 18px;
+    /* Уменьшенный размер шрифта */
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Для экранов шириной 576 пикселей и меньше */
+  .andika-regular-italic {
+    font-size: 16px;
+    /* Еще меньший размер шрифта */
+  }
+}
+
+.andika-bold-italic {
+  font-family: "Andika", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background: url(img/cool-background.png);
+}
+
+.about-img {
+  width: 50%;
+}
+
+.module {
+  background-color: white;
+  margin: 2%;
+  border-radius: 5%;
+}
+
+.module-plus {
+  background-color: white;
+  margin: 2%;
+  border-radius: 30px;
+}
